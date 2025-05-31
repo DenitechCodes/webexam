@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hosanna Secondary School - Admissions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Hosanna Secondary School</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Join Hosanna Secondary School</h1>
+    <p>Be part of a vibrant community focused on excellence and personal growth.</p>
+  </section>
+
+  <section class="section" id="guidelines">
+    <h2 class="ml">Guidelines for New Students</h2>
+    <p>We admit students in both O-Level and A-Level streams. Applicants must present academic transcripts and meet the entry requirements set by the Ministry of Education and our internal assessments.</p>
+  </section>
+
+  <section class="section" id="application">
+    <h2 class="ml">Application Forms</h2>
+    <p>Application forms are available at the school or can be downloaded from our website. Completed forms must be submitted with all required documents before the deadline.</p>
+  </section>
+
+  <section class="section" id="fees">
+    <h2 class="ml">Fee Structure</h2>
+    <p>Our fee structure is designed to be affordable while maintaining high academic standards. Detailed breakdowns are available upon request or at the admissions office.</p>
+  </section>
+
+  <section class="section" id="enrollment">
+    <h2 class="ml">Enrollment Procedures</h2>
+    <p>After passing the entry evaluation, students are issued with admission letters. Orientation programs are conducted for both students and guardians before the term begins.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hosanna Secondary School. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
